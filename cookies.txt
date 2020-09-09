@@ -1,6 +1,6 @@
 # Netscape HTTP Cookie File
 # https://curl.haxx.se/rfc/cookie_spec.html
-# This is a generated file! Do not edit.
+# You may need to change the client ID or group ID depending on if you want the searches to show up on your group or account.
 
 oceanhero.today	FALSE	/	FALSE	1615439980	_pk_ref.6.b753	%5B%22%22%2C%22%22%2C1599671981%2C%22https%3A%2F%2Fwww.google.com%2F%22%5D
 oceanhero.today	FALSE	/	TRUE	0	First_Session_Date	20200909
