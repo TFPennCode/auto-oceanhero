@@ -3,7 +3,7 @@ import threading
 from http.cookiejar import MozillaCookieJar
 
 total_count = 1
-
+threads_count = int(input("How many threas would you like to run on?"))
 def main(threadname):
     global total_count
     url = "https://oceanhero.today/web?q=test"
@@ -18,7 +18,7 @@ def main(threadname):
             print("There was an error peforming the request")
 
 threads = list()
-for index in range(10):
+for index in range(threads_count):
     thread = threading.Thread( target=main, args=(f"Thread{index+1}",))
     threads.append(thread)
     thread.start()
