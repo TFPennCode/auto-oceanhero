@@ -1,4 +1,4 @@
-# AutoOceanHero
+# auto-oceanhearo
 This program automatically simulates searches on [OceanHero](https://oceanhero.today).
 
 It was used to get over half a million searchs in the span of 15 hours and placed our school very firmly at the top of the search leaderboard. 
